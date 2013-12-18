@@ -1,0 +1,35 @@
+{
+  "name": "altair-server",
+  "version": "0.0.1",
+  "description": "Altair Server is a full stack nodejs server with web, ftp, imap and smtp support",
+  "main": "altairserver.js",
+  "author": {
+    "name": "Juan Benavides Romero",
+    "email": "juan@altairstudios.es",
+    "url": "http://www.altairstudios.es"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/altairstudios/altairserver.git"
+  },
+  "bugs": {
+    "url": "https://github.com/altairstudios/altairserver/issues",
+    "email": "juan@altairstudios.es"
+  },
+  "keywords": [
+    "server",
+    "web",
+    "http",
+    "https",
+    "ftp",
+    "imap",
+    "smtp"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "imap-parser": ">= 0.0.1"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  }
+}
