@@ -1,0 +1,31 @@
+{
+	"global": {
+		"debugports": false
+	},
+	"locales": {
+		"default": "en",
+		"list": ["en", "es"]
+	},
+	"services": {
+		"smtp": {
+			"run": true,
+			"port": 25
+		},
+		"pop3": {
+			"run": true,
+			"port": 110
+		},
+		"imap": {
+			"run": true,
+			"port": 143
+		},
+		"web": {
+			"run": true,
+			"port": 80
+		},
+		"ftp": {
+			"run": true,
+			"port": 21
+		}
+	}
+}

@@ -1,0 +1,4 @@
+{
+	"error_sudo": "You must run in root account.\nYou can run: sudo node altairserver.js",
+	"init_service": "Init service %s with port %s"
+}
