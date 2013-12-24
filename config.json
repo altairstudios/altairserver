@@ -25,7 +25,10 @@
 		},
 		"ftp": {
 			"run": true,
-			"port": 21
+			"ports": {
+				"data": 20,
+				"control": 21
+			}
 		}
 	}
 }

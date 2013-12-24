@@ -34,7 +34,7 @@ fs.readFile(file, 'utf8', function (err, data) {
       webserver.web(config);
     }
     if(config.services.ftp.run) {
-      webserver.ftp(config);
+      new webserver.ftp(config);
     }
   } else {
     console.error(i18n.__('error_sudo'));
