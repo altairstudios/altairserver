@@ -1,6 +1,6 @@
 {
   "name": "altair-server",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Altair Server is a full stack nodejs server with web, ftp, imap and smtp support",
   "main": "altairserver.js",
   "author": {
